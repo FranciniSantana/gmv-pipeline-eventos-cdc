@@ -1,0 +1,5 @@
+purchase_id,purchase_partition,subsidiary,transaction_datetime,transaction_date
+55,5,nacional,2023-01-23 00:05:00,2023-01-23
+66,6,internacional,2023-01-25 23:59:59,2023-01-25
+69,7,nacional,2023-02-28 01:00:00,2023-02-28
+69,7,internacional,2023-03-12 07:00:00,2023-03-12

@@ -5,19 +5,23 @@
 O objetivo desta pipeline é atender o time financeiro da Hotmart disponibilizando dados diários do GMV preservando o histórico dos dados e garantindo auditoria.
 
 ## Arquitetura
-O padrão segue a arquitetura medalhão:
+![Arquitetura](assets/arquitetura_inicial.png)
 
 
 ## Stack AWS
 - S3 para armazenamento dados
 - Glue para ETL
 - Redshift para DataWarehouse
+- Airflow para orquestração
 - Linguagens: SQL e Python
 
 ## Modelagem
 
 A tabela segue um modelo bitemporal simplificado, permitindo manter histórico de alterações no cálculo do GMV sem sobrescrever dados anteriores. Dessa forma é possível consultar tanto o valor vigente quanto versões históricas do cálculo.
 
+*Exemplo:*
+
+![Modelagem](assets/modelagem_gmv_diario.png)
 
 **Referências:**
 - [Bi-Temporal Data Modeling: An Overview](https://contact-rajeshvinayagam.medium.com/bi-temporal-data-modeling-an-overview-cbba335d1947)
@@ -27,10 +31,7 @@ A tabela segue um modelo bitemporal simplificado, permitindo manter histórico d
 ](https://www.dataversity.net/articles/implementing-bitemporal-modeling-best-value/#:~:text=Bitemporal%20Modeling%20is%20an%20extremely,of%20sync%20with%20each%20other.)
 - [The Design and Implementation of a Bitemporal DBMS](https://www.youtube.com/watch?v=YjAVsvYGbuU&t=1484s)
 
-## Estrutura de pastas
-```
-Em construção
-```
+
 
 ## Documentação
-Acesse o link da documentação da tabela [aqui.]()
+Acesse o link da documentação da tabela [aqui.](Em construção)

@@ -1,0 +1,5 @@
+purchase_id,buyer_id,prod_item_id,order_date,release_date,producer_id,purchase_partition,prod_item_partition,purchase_total_value,purchase_status,transaction_datetime,transaction_date
+55,15947,1,2023-01-20,2023-01-20,85252,5,5,50.0,approved,2023-01-20 22:00:00,2023-01-20
+66,369798,5,2023-01-25,2023-01-20,963963,6,0,2400.0,approved,2023-01-26 00:01:00,2023-01-26
+69,147,98736,2023-02-20,,96967,7,6,2000.0,pending,2023-02-26 03:00:00,2023-02-26
+69,147,98736,2023-02-20,2023-03-01,96967,7,6,2000.0,approved,2023-03-12 07:00:00,2023-03-12
