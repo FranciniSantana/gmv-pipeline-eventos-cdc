@@ -34,4 +34,4 @@ A tabela segue um modelo bitemporal simplificado, permitindo manter histórico d
 
 
 ## Documentação
-Acesse o link da documentação da tabela [aqui.](Em construção)
+Acesse o link da documentação da tabela [aqui.](docs/tb_gmv_daily.md)
