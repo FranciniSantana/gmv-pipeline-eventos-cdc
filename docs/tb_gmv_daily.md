@@ -39,7 +39,7 @@ A combinação abaixo identifica a entidade de negócio analisada:
 
 Como a tabela mantém histórico de versões, a unicidade completa do registro é definida por:
 
-**Colunas:**  `des_subsidiario`, `dt_valida`, `dt_transacao_inicio`
+**Colunas:**  `des_subsidiario`, `dt_valida`, `flg_atual`
 
 
 ## Regra de validação
@@ -48,7 +48,7 @@ Como a tabela mantém histórico de versões, a unicidade completa do registro �
 
 Deve existir apenas um registro ativo para cada combinação de negócio:
 
-`(des_subsidiario, dt_valida)`
+`(des_subsidiario, dt_valida, flg_atual)`
 
 ### Integridade
 - **Intervalo temporal**
